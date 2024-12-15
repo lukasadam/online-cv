@@ -8,23 +8,19 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Lukas Adam
+    tagline: Computational biologist /<br>Data scientist
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: example@email.com
-    phone: 012 345 6789
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-    citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-    linkedin: alandoe
-    xing: alandoe
-    github: jekyll
+    email: gm.lukas.adam@gmail.com
+    location: Currently based in Basel, Switzerland
+    citizenship: German
+    linkedin: lukas-adam
+    github: lukasadam
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@jekyllrb'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -36,42 +32,38 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: German
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
+        - idiom: English
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Bouldering
           link:
 
-        - item: Snowboarding
+        - item: Hiking
           link:
 
-        - item: Cooking
+        - item: Composing music
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Hey, there! I’m Lukas, a PhD student in computational biology shared between
+      ETH Zürich (D-BSSE) and Roche (IHB). I specialize in computational genomics, systems biology, and machine learning applications. 
+      For my PhD studies I want to decode how gene regulatory networks are rewired in the intestine and which components are truly unique
+      to humans. For that I'm using single-cell multi-omics, perturbation & comparative genomics data.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MSc in Molecular Biotechnology (Major in Bioinformatics)
+        university: Ruprecht-Karls University Heidelberg
+        time: 2018 - 2022
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -80,9 +72,9 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: BSc in Molecular Biotechnology
+        university: Ruprecht-Karls University Heidelberg
+        time: 2015 - 2018
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -95,174 +87,116 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Postgraduate Researcher
+        time: September 2022 - Present
+        company: Institute of Human Biology (IHB/Roche)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Multimodal analysis of intestinal tissue & 3D cell culture models
+            - Single-cell RNA/ATAC sequencing
+            - Comparative genomics
+            - Perturbation modeling
+            - Machine learning
+      - role: Master Thesis
+        time: August 2021 - March 2022
+        company: Deutsches Krebsforschungszentrum (DKFZ)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Splicing effect prediction in single cells 
+            - scNMT sequencing 
+            - Deep learning 
+      - role: Working Student
+        time: April 2021 - January 2022
+        company: Ferchau GmbH & Dentsply Sirona Inc.
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+          Image registration of CBCT data
+            - Image processing
+            - Database management (SQL)
+      - role: Internship
+        time: September 2020 - December 2020
+        company: EMBL Heidelberg
+        details: |
+          Structure refinement of a membraneassociated complex in Mycoplasma pneumonia
+            - Cryo-electron tomography
+      - role: Internship
+        time: April 2020 - August 2020
+        company: Bioquant & Deutsches Krebsforschungszentrum (DKFZ)
+        details: |
+          Inferring dynamics of SARS-CoV-2 host cell interactions 
+            - Bulk RNA sequencing 
+            - Cloning, Cell culture & Cleavage probe assays
+      - role: Internship
+        time: October 2019 - February 2020
+        company: eilslabs, Berlin Institute of Health (BIH)
+        details: |
+          Combining image and RNA-seq analysis in order to study subcellular phenotypes
+            - 3D Light-Sheet Microscopy
+            - Image analysis
+            - RNA-seq
+            - Machine learning
+      - role: Internship
+        time: April 2019 - October 2019
+        company: ETH Zurich, DBBSE
+        details: |
+          Pipeline development for novel transcriptional recording systems
+            - Cloning, Cell culture 
+            - Sequencing & Data analysis
+      - role: Internship
+        time: December 2018 - March 2019
+        company: Hits gGmbH
+        details: |
+          Employing a deep neural network for the rapid identification of Hit molecules.
+          - Machine & Deep learning
+          - Molecular Dynamics Simulations 
+          - In-silico Drug Screening 
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "Leveraging implicit knowledge in neural networks for functional dissection and engineering of proteins."
+        link: "https://www.nature.com/articles/s42256-019-0049-9"
+        authors: Upmeier zu Belzen, Julius, et al.
+        conference: "Nature Machine Intelligence 1.5 (2019): 225-235."
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "RASPD+: fast protein-ligand binding free energy prediction using simplified physicochemical features."
+        link: "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2020.601065/full"
+        authors: Holderbach, Stefan, & Adam, Lukas et al.
+        conference: "Frontiers in molecular biosciences 7 (2020): 601065."
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Gene set inference from single-cell sequencing data using a hybrid of matrix factorization and variational autoencoders."
+        link: "https://www.nature.com/articles/s42256-020-00269-9"
+        authors: Lukassen, Soeren, et al.
+        conference: "Nature Machine Intelligence 2.12 (2020): 800-809."
+      
+      - title: "Automated 3D light-sheet screening with high spatiotemporal resolution reveals mitotic phenotypes."
+        link: "https://journals.biologists.com/jcs/article/133/11/jcs245043/224801/Automated-3D-light-sheet-screening-with-high"
+        authors: Eismann, Björn, et al.
+        conference: "Journal of cell science 133.11 (2020): jcs245043."
+      
+      - title: "Transcriptomics-inferred dynamics of SARS-CoV-2 interactions with host epithelial cells."
+        link: "https://www.science.org/doi/full/10.1126/scisignal.abl8266?casa_token=IWphEyk6Ey0AAAAA%3AI_oD7I4kIE7FEIdIpmXP7Lfxp8SnZA54qBdXG6LwIcZlE-8cr1FOACS6Ni4saByWInX_iPiVdMD9AXVx"
+        authors: Adam, Lukas, et al.
+        conference: "Science Signaling 16.804 (2023): eabl8266."
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
+      - name: Python
+        image: python-svgrepo-com.png
+      - name: R
+        image: R-svgrepo-com.png
+      - name: Bash
+        image: bash-icon-svgrepo-com.png
+      - name: HTML5
+        image: html-5-svgrepo-com.png
+      - name: CSS3
+        image: css-3-svgrepo-com.png
+      - name: Javascript
+        image: js-svgrepo-com.png
+      - name: MongoDB
+        image: mongodb-svgrepo-com.png
+      - name: PyTorch
+        image: pytorch-svgrepo-com.png
+      - name: Tensorflow
+        image: tensorflow-svgrepo-com.png
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Template adopted from <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
