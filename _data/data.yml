@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Lukas Adam
-    tagline: Computational biologist /<br>Data scientist
+    tagline: Genomics data scientist /<br>Bioinformatician
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -53,10 +53,11 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Hey, there! I’m Lukas, a PhD student in computational biology shared between
-      ETH Zürich (D-BSSE) and Roche (IHB). I specialize in computational genomics, systems biology, and machine learning applications. 
-      For my PhD studies I want to decode how gene regulatory networks are rewired in the intestine and which components are truly unique
-      to humans. For that I'm using single-cell multi-omics, perturbation & comparative genomics data.
+      Hey, there! I’m Lukas, a genomics data scientist at the Roche Institute of Human Biology (IHB).
+      I work mostly with genomic data, including bulk sequencing, single-cell multi-omics, epigenetic,
+      and spatial datasets. My background is in bioinformatics, machine learning, and statistics,
+      with earlier projects in structure-based drug discovery and automated 3D imaging. I enjoy building
+      reproducible analysis workflows that turn complex biological data into interpretable results.
 
 education:
     title: Education
@@ -87,15 +88,31 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Postgraduate Researcher
-        time: September 2022 - Present
+      - role: Genomics Data Scientist
+        time: June 2026 - Present
         company: Institute of Human Biology (IHB/Roche)
         details: |
-          Multimodal analysis of intestinal tissue & 3D cell culture models
+          Computational analysis of complex genomic datasets across human model systems
+            - Bulk, single-cell, epigenetic, and spatial genomics
+            - Reproducible data workflows
+            - Statistical modeling and machine learning
+      - role: Postgraduate Researcher
+        time: September 2023 - June 2026
+        company: Institute of Human Biology (IHB/Roche)
+        details: |
+          Multimodal analysis of intestinal tissue and 3D cell culture models
             - Single-cell RNA/ATAC sequencing
             - Comparative genomics
             - Perturbation modeling
             - Machine learning
+      - role: Intern
+        time: September 2022 - August 2023
+        company: Institute of Human Biology (IHB/Roche)
+        details: |
+          Computational genomics work on human intestinal model systems
+            - Single-cell data analysis
+            - Multi-omics workflows
+            - Data visualization and reporting
       - role: Master Thesis
         time: August 2021 - March 2022
         company: Deutsches Krebsforschungszentrum (DKFZ)
